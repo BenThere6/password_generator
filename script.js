@@ -52,6 +52,7 @@ var getCharacters = function() {
   if (lower) {
     for (let x in lowercaseLetters) {
       possibleCharacters.push(lowercaseLetters[x])
+      possibleCharacters.push(lowercaseLetters[x])
     };
   };
 
